@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import PropTypes from 'prop-types';
 import ContactstItem from 'components/ContactsItem';
 import StyledList from './ContactsList.styled';
@@ -43,4 +44,4 @@ ContactsList.propTypes = {
   onClick: PropTypes.func.isRequired,
 };
 
-export default ContactsList;
+export default memo(ContactsList);
