@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import ContactstItem from 'components/ContactsItem';
 import StyledList from './ContactsList.styled';
 
-
 function ContactsList({ contacts, filter, onClick }) {
   let filtered = contacts;
   //

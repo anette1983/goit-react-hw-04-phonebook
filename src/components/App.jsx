@@ -30,6 +30,7 @@ const App = () => {
 
   // useEffect(() => {
   //   const contacts = localStorage.getItem('contacts');
+  // сюди дописати перевірку, як в стейті
   //   const parsedContacts = JSON.parse(contacts);
   //   if (parsedContacts) {
   //     setContacts(parsedContacts);
@@ -62,6 +63,8 @@ const App = () => {
     },
     [contacts]
   );
+
+  // Тут можна переробити як в пректіс3!
 
   const handleFilterChange = e => {
     const target = e.target.value;
